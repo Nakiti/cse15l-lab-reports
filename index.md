@@ -1,5 +1,5 @@
 Hello, World!
 *Italic text*
-** Bold Test **
+**Bold Test**
 # a Heading
 ## a smaller heading
