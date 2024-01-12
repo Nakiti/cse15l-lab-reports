@@ -53,5 +53,13 @@ el.txt  en-us.txt  es-mx.txt  zh-cn.txt
 
 **Path to a File as the Argument**
 ```
+[user@sahara ~/lecture1/messages]$ ls en-us.txt
+en-us.txt
+[user@sahara ~/lecture1/messages]$
+```
+- Prior to running the `ls` command, the working directory was `/lecture1/messages`.
+- When the `ls` command was run with the file path `en-us.txt`, the program returned `en-us.txt`. This occurred because `ls` returns information about the argument if the argment if a file.
+- The output is not an error.
+
 
   
