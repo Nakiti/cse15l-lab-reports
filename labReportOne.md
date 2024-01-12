@@ -29,5 +29,29 @@ bash: cd: en-us.txt: Not a directory
 - Prior to running the `cd` command, the working directory was `/lecture1/messages`
 - When the `cd` command was run with the `en-us.txt` as the argument, the program returned `bash: cd: en-us.txt: Not a directory` and stayed in the current working directory. This occured because `cd` is built to change between directories and as the argument provided was a text file, it was unable to do so.
 - The output of this command was an error because the `cd` command is not meant to handle files.
-  
+
+## `ls`
+**No Arguments**
+```
+[user@sahara ~/lecture1]$ ls
+Hello.class  Hello.java  messages  README
+[user@sahara ~/lecture1]$
+```
+- Prior to running the `ls` command, the working directory was `/lecture1`
+- When the `ls` command was run with no arguments, the program returned `Hello.class  Hello.java  messages  README`. This occurred because the `ls` command lists all the directories and files within the working directory and those files/programs existed within the `lecture1` directory.
+- The output of this command was not an error.
+
+**Path to a Directory as the Argument**
+```
+[user@sahara ~/lecture1]$ ls messages
+el.txt  en-us.txt  es-mx.txt  zh-cn.txt
+[user@sahara ~/lecture1]$
+```
+- Prior to running the `ls` command, the working directory was `/lecture1`
+- When the `ls` command was run with the directory path `/messages` as the argument, the program returned `el.txt  en-us.txt  es-mx.txt  zh-cn.txt`. This occurred because the `ls` command lists all the files/directories within the provided directory and those files were in the directory.
+- The output of this command was not an error
+
+**Path to a File as the Argument**
+```
+
   
