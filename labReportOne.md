@@ -61,5 +61,33 @@ en-us.txt
 - When the `ls` command was run with the file path `en-us.txt`, the program returned `en-us.txt`. This occurred because `ls` returns information about the argument if the argment if a file.
 - The output is not an error.
 
+## `cat`
+**No Arguments**
+```
+[user@sahara ~/lecture1]$ cat
 
+```
+- Prior to running the `cat` command, the working directory was `/lecture1`.
+- When the `cat` command was run with no arguments, the program did not return anything. This occurred because when the `cat` program is executed without arguments, it waits for user input. When text input was provided, the command printed the content of the input.
+- The output is not an error.
+
+**Path to a Directory as the Argument**
+```
+[user@sahara ~/lecture1]$ cat messages
+cat: messages: Is a directory
+[user@sahara ~/lecture1]$
+```
+- Prior to running the `cat` command, the working directory was `/lecture1`.
+- When the `cat` command was run with `messages` as the argument, the program returned `cat: messages: Is a directory`. This occurred because the `cat` command is meant to print the contents of files, not directories.
+- The output
+
+**Path to a File as the Argument**
+```
+[user@sahara ~/lecture1/messages]$ cat en-us.txt
+Hello World!
+[user@sahara ~/lecture1/messages]$
+```
+- Prior to running the `cat` command, the working directory was `/lecture1/messages`.
+- When the `cat` command was run with `en-us.txt` as the argument, the program returned `Hello World!`. This occurred because the `cat` command is meant to print the file's contents, and `Hello World!` is what the file contains.
+- The output is not an error.
   
