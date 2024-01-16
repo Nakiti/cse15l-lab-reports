@@ -79,7 +79,7 @@ cat: messages: Is a directory
 ```
 - Prior to running the `cat` command, the working directory was `/lecture1`.
 - When the `cat` command was run with `messages` as the argument, the program returned `cat: messages: Is a directory`. This occurred because the `cat` command is meant to print the contents of files, not directories.
-- The output
+- The output of this command is an error because it notifies the user that the argument provided was not valid for the command's functionality. 
 
 **Path to a File as the Argument**
 ```
