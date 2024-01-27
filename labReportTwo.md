@@ -38,4 +38,13 @@ class ChatServer {
 **Screenshot For First Usage of `/add-message`**
 ![image One](https://github.com/Nakiti/cse15l-lab-reports/blob/main/Screenshot%202024-01-27%20144438.png)
 - In my code, the two methods called are the `main` method of the `ChatServer` class and the `handleRequest` method of the `Handler` class
-- 
+- `main` method
+    - Relevant Arguments: `String[] args` which is the user's input into the program
+    - Relevant Fields: `int port` which is the port number that the user specifies through the previous argument
+- `handleRequest`
+    - Relevant Arguments: `URI url` which is the url of the visited webpage
+    - Relevant Fields
+          - `String allMessages` which is a string containing every message/user input from the user in the proper format
+          - `String[] parameters` which contains the query made by the user
+          - `String s` which contains the user's message
+          - `String user` which contains the username the user has provided
