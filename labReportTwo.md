@@ -34,4 +34,8 @@ class ChatServer {
     }
 }
 ```
-!["image One"]("C:\Users\nakit\Downloads\Screenshot 2024-01-27 144515.png")
+\
+**Screenshot For First Usage of `/add-message`**
+![image One](https://github.com/Nakiti/cse15l-lab-reports/blob/main/Screenshot%202024-01-27%20144438.png)
+- In my code, the two methods called are the `main` method of the `ChatServer` class and the `handleRequest` method of the `Handler` class
+- 
