@@ -42,9 +42,23 @@ class ChatServer {
     - Relevant Arguments: `String[] args` which is the user's input into the program
     - Relevant Fields: `int port` which is the port number that the user specifies through the previous argument
 - `handleRequest`
-    - Relevant Arguments: `URI url` which is the url of the visited webpage
+    - Relevant Arguments: `URI url` - the url of the visited webpage which is `http://localhost:4000/add-message?s=Hello&user=bob` 
     - Relevant Fields
-          - `String allMessages` which is a string containing every message/user input from the user in the proper format
-          - `String[] parameters` which contains the query made by the user
-          - `String s` which contains the user's message
-          - `String user` which contains the username the user has provided
+        - `String allMessages` - a string containing every message/user input from the user in the proper format which is `"bob: Hello \n"`
+        - `String[] parameters` - contains the query made by the user split by the "=" which is `["s", "Hello&user", "bob"]`
+        - `String s` - contains the user's message which is `"Hello"`
+        - `String user` - contains the username the user has provided which is `"bob"`
+- This request changes the `parameters`, `s`, and `user` fields because a new url that must be parsed into the various fields is inputted into the program. The `allMessages` field is also changed as the new message in the format of `<user>: <message>` is added to it.
+
+\
+**Screenshot for Second Image of `/add-message`**
+![image two](https://github.com/Nakiti/cse15l-lab-reports/blob/main/Screenshot%202024-01-27%20144515.png)
+- In my code, only the `handleRequest` method of the `Handler` class is called
+- `handleRequest` (same functionality as previous image)
+    - Relevant Arguments: `URI url` - the url of the visited webpage which is `http://localhost:4000/add-message?s=Hello%20Again&user=tim`
+    - Relevant Fields
+        - `String allMessages` - a string containing every message/user input from the user in the proper format which is now `"bob: Hello \n tim: Hello Again"`
+        - `String parameters` - contains the query made by the user split by the "=" which is ["s", "Hello Again&user", "tim"]`
+        - `String s` - contains the user's message which is `"Hello Again"`
+        - `String user` - contains the username the user has provided which is `"tim"`
+- This request makes the same changes as in the previous instance. It changes the `parameters`, `s`, and `user` fields because a new url that must be parsed into the various fields is inputted into the program. The `allMessages` field is also changed as the new message in the format of `<user>: <message>` is added to it.
