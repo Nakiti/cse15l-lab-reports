@@ -62,3 +62,8 @@ class ChatServer {
         - `String s` - contains the user's message which is `"Hello Again"`
         - `String user` - contains the username the user has provided which is `"tim"`
 - This request makes the same changes as in the previous instance. It changes the `parameters`, `s`, and `user` fields because a new url that must be parsed into the various fields is inputted into the program. The `allMessages` field is also changed as the new message in the format of `<user>: <message>` is added to it.
+
+## Part 2
+
+## Part 3
+In the week 2 lab, I learned how to run a server on a remote computer. I learned that each server runs on a unique port and can be accessed and modified by any computer that are also on the UCSD network. 
