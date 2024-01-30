@@ -65,12 +65,15 @@ class ChatServer {
 
 ## Part 2
 **Image One**
+
 ![image two](https://github.com/Nakiti/cse15l-lab-reports/blob/main/Screenshot%202024-01-28%20125149.png)
 
 **Image Two**
+
 ![image two](https://github.com/Nakiti/cse15l-lab-reports/blob/main/Screenshot%202024-01-30%20084735.png)
 
 **Image Three**
+
 ![image two](https://github.com/Nakiti/cse15l-lab-reports/blob/main/Screenshot%202024-01-30%20084318.png)
 
 
