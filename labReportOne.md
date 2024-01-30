@@ -17,7 +17,7 @@
   [user@sahara ~/lecture1/messages]$
   ```
 - Prior to running the `cd` command, the working directory was `~/lecture1`
-- When the `cd` command was run with the directory path `/messages` as the argument, the working directory went to the `/lecture1/messages` directory. This occured because the `cd` command changes the directory to that which matches the argument provided. In this instance, since the working directory was already `/lecture1` as opposed so the `/home` directory, the cd command only looked for matches within the `lecture1` directory.
+- When the `cd` command was run with the directory path `/messages` as the argument, the working directory went to the `/lecture1/messages` directory. This occured because the `cd` command changes the directory to that which matches the argument provided. In this instance, since the working directory was already `~/lecture1` as opposed so the `/home` directory, the cd command only looked for matches within the `lecture1` directory.
 - The output of this command was not an error.
 
 **Path to a File as the Argument**
@@ -47,7 +47,7 @@ Hello.class  Hello.java  messages  README
 el.txt  en-us.txt  es-mx.txt  zh-cn.txt
 [user@sahara ~/lecture1]$
 ```
-- Prior to running the `ls` command, the working directory was `/lecture1`
+- Prior to running the `ls` command, the working directory was `~/lecture1`
 - When the `ls` command was run with the directory path `/messages` as the argument, the program returned `el.txt  en-us.txt  es-mx.txt  zh-cn.txt`. This occurred because the `ls` command lists all the files/directories within the provided directory and those files were in the directory.
 - The output of this command was not an error
 
@@ -57,7 +57,7 @@ el.txt  en-us.txt  es-mx.txt  zh-cn.txt
 en-us.txt
 [user@sahara ~/lecture1/messages]$
 ```
-- Prior to running the `ls` command, the working directory was `/lecture1/messages`.
+- Prior to running the `ls` command, the working directory was `~/lecture1/messages`.
 - When the `ls` command was run with the file path `en-us.txt`, the program returned `en-us.txt`. This occurred because `ls` returns information about the argument if the argment if a file.
 - The output is not an error.
 
@@ -87,7 +87,7 @@ cat: messages: Is a directory
 Hello World!
 [user@sahara ~/lecture1/messages]$
 ```
-- Prior to running the `cat` command, the working directory was `/lecture1/messages`.
+- Prior to running the `cat` command, the working directory was `~/lecture1/messages`.
 - When the `cat` command was run with `en-us.txt` as the argument, the program returned `Hello World!`. This occurred because the `cat` command is meant to print the file's contents, and `Hello World!` is what the file contains.
 - The output is not an error.
   
