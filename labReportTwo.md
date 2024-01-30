@@ -64,6 +64,15 @@ class ChatServer {
 - This request makes the same changes as in the previous instance. It changes the `parameters`, `s`, and `user` fields because a new url that must be parsed into the various fields is inputted into the program. The `allMessages` field is also changed as the new message in the format of `<user>: <message>` is added to it.
 
 ## Part 2
+**Image One**
+![image two](https://github.com/Nakiti/cse15l-lab-reports/blob/main/Screenshot%202024-01-28%20125149.png)
+
+**Image Two**
+![image two](https://github.com/Nakiti/cse15l-lab-reports/blob/main/Screenshot%202024-01-30%20084735.png)
+
+**Image Three**
+![image two](https://github.com/Nakiti/cse15l-lab-reports/blob/main/Screenshot%202024-01-30%20084318.png)
+
 
 ## Part 3
 In the week 2 lab, I learned how to run a server on a remote computer. I learned that each server runs on a unique port and can be accessed and modified by any computer that are also on the UCSD network. 
