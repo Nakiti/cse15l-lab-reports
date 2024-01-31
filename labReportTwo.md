@@ -36,7 +36,8 @@ class ChatServer {
 ```
 \
 **Screenshot For First Usage of `/add-message`**
-![image One](https://github.com/Nakiti/cse15l-lab-reports/blob/main/Screenshot%202024-01-27%20144438.png)
+
+![image One](144438.png)
 - In my code, the two methods called are the `main` method of the `ChatServer` class and the `handleRequest` method of the `Handler` class
 - `main` method
     - Relevant Arguments: `String[] args` which is the user's input into the program
@@ -52,7 +53,7 @@ class ChatServer {
 
 \
 **Screenshot for Second Image of `/add-message`**
-![image two](https://github.com/Nakiti/cse15l-lab-reports/blob/main/Screenshot%202024-01-27%20144515.png)
+![image two](144515.png)
 - In my code, only the `handleRequest` method of the `Handler` class is called
 - `handleRequest` (same functionality as previous image)
     - Relevant Arguments: `URI url` - the url of the visited webpage which is `http://localhost:4000/add-message?s=Hello%20Again&user=tim`
@@ -66,15 +67,15 @@ class ChatServer {
 ## Part 2
 **Image One**
 
-![image two](https://github.com/Nakiti/cse15l-lab-reports/blob/main/Screenshot%202024-01-28%20125149.png)
+![image two](125149.png)
 
 **Image Two**
 
-![image two](https://github.com/Nakiti/cse15l-lab-reports/blob/main/Screenshot%202024-01-30%20084735.png)
+![image two](84735.png)
 
 **Image Three**
 
-![image two](https://github.com/Nakiti/cse15l-lab-reports/blob/main/Screenshot%202024-01-30%20084318.png)
+![image two](084318.png)
 
 
 ## Part 3
