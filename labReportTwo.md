@@ -55,7 +55,6 @@ class ChatServer {
 **Screenshot for Second Image of `/add-message`**
 
 ![image Two](144515.png)
-
 - In my code, only the `handleRequest` method of the `Handler` class is called
 - `handleRequest` (same functionality as previous image)
     - Relevant Arguments: `URI url` - the url of the visited webpage which is `http://localhost:4000/add-message?s=Hello%20Again&user=tim`
