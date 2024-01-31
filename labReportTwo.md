@@ -37,7 +37,7 @@ class ChatServer {
 \
 **Screenshot For First Usage of `/add-message`**
 
-![image One](144438.png)
+![image One](https://github.com/Nakiti/cse15l-lab-reports/blob/3918abef5c03a2f3cbe1cec112c1044d8fc9ddd4/144438.png)
 - In my code, the two methods called are the `main` method of the `ChatServer` class and the `handleRequest` method of the `Handler` class
 - `main` method
     - Relevant Arguments: `String[] args` which is the user's input into the program
@@ -67,15 +67,15 @@ class ChatServer {
 ## Part 2
 **Image One**
 
-![image two](125149.png)
+![image two](https://github.com/Nakiti/cse15l-lab-reports/blob/3918abef5c03a2f3cbe1cec112c1044d8fc9ddd4/125149.png)
 
 **Image Two**
 
-![image two](84735.png)
+![image two](https://github.com/Nakiti/cse15l-lab-reports/blob/3918abef5c03a2f3cbe1cec112c1044d8fc9ddd4/84735.png)
 
 **Image Three**
 
-![image two](084318.png)
+![image two](https://github.com/Nakiti/cse15l-lab-reports/blob/3918abef5c03a2f3cbe1cec112c1044d8fc9ddd4/084318.png)
 
 
 ## Part 3
