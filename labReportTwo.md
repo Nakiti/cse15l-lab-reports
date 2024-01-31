@@ -53,6 +53,7 @@ class ChatServer {
 
 \
 **Screenshot for Second Image of `/add-message`**
+
 ![image Two](https://github.com/Nakiti/cse15l-lab-reports/blob/1d901d5dcf9e7a029b58a3b2d047b21af34d7b68/144515.png)
 
 - In my code, only the `handleRequest` method of the `Handler` class is called
