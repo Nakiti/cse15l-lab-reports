@@ -37,7 +37,7 @@ class ChatServer {
 \
 **Screenshot For First Usage of `/add-message`**
 
-![image One](https://github.com/Nakiti/cse15l-lab-reports/blob/3918abef5c03a2f3cbe1cec112c1044d8fc9ddd4/144438.png)
+![image One](144438.png)
 - In my code, the two methods called are the `main` method of the `ChatServer` class and the `handleRequest` method of the `Handler` class
 - `main` method
     - Relevant Arguments: `String[] args` which is the user's input into the program
@@ -54,7 +54,7 @@ class ChatServer {
 \
 **Screenshot for Second Image of `/add-message`**
 
-![image Two](https://github.com/Nakiti/cse15l-lab-reports/blob/1d901d5dcf9e7a029b58a3b2d047b21af34d7b68/144515.png)
+![image Two](144515.png)
 
 - In my code, only the `handleRequest` method of the `Handler` class is called
 - `handleRequest` (same functionality as previous image)
@@ -69,15 +69,15 @@ class ChatServer {
 ## Part 2
 **Image One**
 
-![image One](https://github.com/Nakiti/cse15l-lab-reports/blob/3918abef5c03a2f3cbe1cec112c1044d8fc9ddd4/125149.png)
+![image One](125149.png)
 
 **Image Two**
 
-![image Two](https://github.com/Nakiti/cse15l-lab-reports/blob/3918abef5c03a2f3cbe1cec112c1044d8fc9ddd4/84735.png)
+![image Two](84735.png)
 
 **Image Three**
 
-![image Three](https://github.com/Nakiti/cse15l-lab-reports/blob/3918abef5c03a2f3cbe1cec112c1044d8fc9ddd4/084318.png)
+![image Three](084318.png)
 
 
 ## Part 3
