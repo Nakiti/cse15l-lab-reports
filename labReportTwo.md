@@ -81,4 +81,4 @@ class ChatServer {
 
 
 ## Part 3
-In the week 2 lab, I learned how to run a server on a remote computer. I learned that each server runs on a unique port and can be accessed and modified by any computer that are also on the UCSD network. 
+In the week 2 lab, I learned how to run a server on a remote computer. I learned that each server runs on a unique port and can be accessed and modified by any computers that are also on the UCSD network. These computers can access and modify the data by making different queries through url paths. 
