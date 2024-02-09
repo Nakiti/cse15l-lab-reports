@@ -11,11 +11,15 @@ class Handler implements URLHandler {
     public String handleRequest(URI url) {
         if (url.getPath().contains("/add-message")) {
             String[] parameters = url.getQuery().split("=");
-            String s = parameters[1].split("&")[0];
-            String user = parameters[2];
-            allMessages = allMessages + user + ": " + s + "\n";
-
-            return allMessages;
+            if (parameters[0].equals("s") && parameters[1].split("&")[1].equals("user")) {
+                String s = parameters[1].split("&")[0];
+                String user = parameters[2];
+                allMessages = allMessages + user + ": " + s + "\n";
+    
+                return allMessages;
+            } else {
+                return "Incorrect Query Structure";
+            }
         } else {
             return "404 Not Found!";
         }
@@ -46,9 +50,6 @@ class ChatServer {
     - Relevant Arguments: `URI url` - the url of the visited webpage which is `http://localhost:4000/add-message?s=Hello&user=bob` 
     - Relevant Fields
         - `String allMessages` - a string containing every message/user input from the user in the proper format which is `"bob: Hello \n"`
-        - `String[] parameters` - contains the query made by the user split by the "=" which is `["s", "Hello&user", "bob"]`
-        - `String s` - contains the user's message which is `"Hello"`
-        - `String user` - contains the username the user has provided which is `"bob"`
 - This request changes the `parameters`, `s`, and `user` fields because a new url that must be parsed into the various fields is inputted into the program. The `allMessages` field is also changed as the new message in the format of `<user>: <message>` is added to it.
 
 \
@@ -60,21 +61,18 @@ class ChatServer {
     - Relevant Arguments: `URI url` - the url of the visited webpage which is `http://localhost:4000/add-message?s=Hello%20Again&user=tim`
     - Relevant Fields
         - `String allMessages` - a string containing every message/user input from the user in the proper format which is now `"bob: Hello \n tim: Hello Again"`
-        - `String parameters` - contains the query made by the user split by the "=" which is ["s", "Hello Again&user", "tim"]`
-        - `String s` - contains the user's message which is `"Hello Again"`
-        - `String user` - contains the username the user has provided which is `"tim"`
 - This request makes the same changes as in the previous instance. It changes the `parameters`, `s`, and `user` fields because a new url that must be parsed into the various fields is inputted into the program. The `allMessages` field is also changed as the new message in the format of `<user>: <message>` is added to it.
 
 ## Part 2
-**Image One**
+**Absoulte Path to Private Key**
 
 ![image One](125149.png)
 
-**Image Two**
+**Absolute Path to Public Key**
 
 ![image Two](84735.png)
 
-**Image Three**
+**Logging into ieng6 Without Password**
 
 ![image Three](084318.png)
 
