@@ -155,6 +155,39 @@ plos/journal.pbio.0020001.txt:        2002).
 - The `--invert-match` command returns lines that do not contain the specified input. It can be useful when you are trying to filter text files.
 
 Option 4: `--count`
-Example 
+Example 1:
+```
+nakit@Nikhil MINGW64 ~/OneDrive/Documents/CSE15L/docsearch/technical (main)
+$ grep "expect" plos/* --count
+plos/journal.pbio.0020001.txt:0
+plos/journal.pbio.0020010.txt:1
+plos/journal.pbio.0020012.txt:5
+plos/journal.pbio.0020013.txt:1
+plos/journal.pbio.0020019.txt:0
+plos/journal.pbio.0020028.txt:1
+plos/journal.pbio.0020035.txt:1
+plos/journal.pbio.0020040.txt:2
+plos/journal.pbio.0020042.txt:1
+plos/journal.pbio.0020043.txt:1
+plos/journal.pbio.0020046.txt:0
+```
+Example 2:
+```
+nakit@Nikhil MINGW64 ~/OneDrive/Documents/CSE15L/docsearch/technical (main)
+$ grep "a" plos/* --count
+plos/journal.pbio.0020001.txt:196
+plos/journal.pbio.0020010.txt:72
+plos/journal.pbio.0020012.txt:191
+plos/journal.pbio.0020013.txt:129
+plos/journal.pbio.0020019.txt:140
+plos/journal.pbio.0020028.txt:176
+plos/journal.pbio.0020035.txt:160
+plos/journal.pbio.0020040.txt:87
+plos/journal.pbio.0020042.txt:107
+plos/journal.pbio.0020043.txt:215
+plos/journal.pbio.0020046.txt:208
+```
+- The `--count` command returns the number of times the specified input appeared in each text file. It can be useful to determine minimums, maximums, and averages of word occurrences in text files. 
+
 
 
