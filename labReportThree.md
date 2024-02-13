@@ -33,6 +33,7 @@
 ![image one](144853.png)
 
 **The Fix**
+\
 Before
 ```
   static int[] reversed(int[] arr) {
@@ -59,7 +60,10 @@ The fix addresses the issue as prior to its implementation the original array, `
 
 ## Part 2 - Researching Commands
 **Command:** `grep`
+\
+\
 Option 1: `-l`
+\
 Example 1:
 ```
 nakit@Nikhil MINGW64 ~/OneDrive/Documents/CSE15L/docsearch/technical (main)
@@ -86,6 +90,7 @@ plos/pmed.0020059.txt
 - In this instance, the `-l` command is retrieving the names of the files that contain the input pattern. This is useful to see which files contain information about a particular word/topic.
 
 Option 2: `--word-regexp`
+\
 Example 1: 
 ```
 $ grep "out" plos/* --word-regexp
@@ -115,6 +120,7 @@ plos/journal.pbio.0020267.txt:        opportunity to be shaped by the experience
 - The `--word-regexp` command only returns lines that contain an exact match with the input pattern. It can be useful when the input word is a base word and can return more outputs that the intended ones.
 
 Option 3: `--invert-match`
+\
 Example 1:
 ```
 nakit@Nikhil MINGW64 ~/OneDrive/Documents/CSE15L/docsearch/technical (main)
@@ -136,6 +142,7 @@ plos/journal.pbio.0020001.txt:
 plos/journal.pbio.0020001.txt:        developing worlds actually remaining unchanged or even increasing, as Mr. Annan has
 ```
 Example 2:
+```
 nakit@Nikhil MINGW64 ~/OneDrive/Documents/CSE15L/docsearch/technical (main)
 $ grep "a" plos/* --invert-match
 plos/journal.pbio.0020001.txt:
@@ -155,6 +162,7 @@ plos/journal.pbio.0020001.txt:        2002).
 - The `--invert-match` command returns lines that do not contain the specified input. It can be useful when you are trying to filter text files.
 
 Option 4: `--count`
+\
 Example 1:
 ```
 nakit@Nikhil MINGW64 ~/OneDrive/Documents/CSE15L/docsearch/technical (main)
@@ -189,5 +197,5 @@ plos/journal.pbio.0020046.txt:208
 ```
 - The `--count` command returns the number of times the specified input appeared in each text file. It can be useful to determine minimums, maximums, and averages of word occurrences in text files. 
 
-
+**Source for all options: https://man7.org/linux/man-pages/man1/grep.1.html**
 
