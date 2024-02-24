@@ -76,6 +76,7 @@ plos/pmed.0020062.txt
 plos/pmed.0020099.txt
 plos/pmed.0020210.txt
 ```
+- In this instance, the `-l` command is retrieving the file names that contain the text pattern "Pharamceutical". This is useful as you do not have to traverse through each file to see if it contains the given word. 
 Example 2:
 ```
 nakit@Nikhil MINGW64 ~/OneDrive/Documents/CSE15L/docsearch/technical (main)
@@ -104,6 +105,7 @@ plos/journal.pbio.0020019.txt:        ‘knocked out’ and then, at a later tim
 plos/journal.pbio.0020019.txt:        out’ in turn and the expression of the remaining genes determined, to demonstrate that
 plos/journal.pbio.0020019.txt:        This hypothesis has several testable predictions. For example, ‘knocking out’ an ion
 ```
+- Here, the `--word-regexp` command returns lines and file names where the file contains an exact match with the input pattern. This is useful as it prevents words that contain "out" as a base word from being returned. 
 Example 2:
 ```
 $ grep "child" plos/* --word-regexp
@@ -141,6 +143,7 @@ plos/journal.pbio.0020001.txt:
 plos/journal.pbio.0020001.txt:
 plos/journal.pbio.0020001.txt:        developing worlds actually remaining unchanged or even increasing, as Mr. Annan has
 ```
+- Here, the `--invert-match` command selects all lines that do not contain the pattern "the". This can be useful to filter files based on a pattern.  
 Example 2:
 ```
 nakit@Nikhil MINGW64 ~/OneDrive/Documents/CSE15L/docsearch/technical (main)
@@ -179,6 +182,7 @@ plos/journal.pbio.0020042.txt:1
 plos/journal.pbio.0020043.txt:1
 plos/journal.pbio.0020046.txt:0
 ```
+- Here, the `--count` command returns the number of times the pattern "expect" is within the files in the given directory. It can be useful to determine how many times a certain pattern appears in a file. 
 Example 2:
 ```
 nakit@Nikhil MINGW64 ~/OneDrive/Documents/CSE15L/docsearch/technical (main)
