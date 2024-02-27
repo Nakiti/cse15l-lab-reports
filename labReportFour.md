@@ -32,4 +32,5 @@
 **Step 9**
 \
 ![image_six](135723.png)
-- `
+- Keys pressed: `g` `i` `t` `a` `d` `d` `L` `i` `s` `t` `E` `x` `a` `m` `p` `l` `e` `s` `.` `j` `a` `v` `a` `<enter>`, `g` `i` `t` `c` `o` `m` `m` `i` `t` `-` `m` `"` `f` `i` `x` `e` `d` `e` `r` `r` `o` `r` `"` `<enter>`
+- I first used the `git add` command to stage the changed file for commit. I then used `git commit -m` command to commit the changes I made with a message.  
