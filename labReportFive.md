@@ -97,3 +97,5 @@ Fixing the Bug:
 \
 To fix the bug, I had to add a space between the `CPATH` and `JUNIT` variables in the `java` command to run the files. 
 
+# Part 2 - Reflection
+One thing that I learned which I found to be really interesting is the concept of bash scripting where you can execute java programs and use that programs output without having to write it all in a terminal. I think the applications of this that we explored in class and in labs, such as the autograder, were very helpful. This is something that I will definetly consider using in future programming to increase productivity. 
