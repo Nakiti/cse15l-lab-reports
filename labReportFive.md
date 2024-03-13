@@ -2,14 +2,14 @@
 
 # Part 1 - Debugging Scenario
 1. **Original Student Post**
-  ![122553.png]
+  ![image_one](122553.png)
   Hello, I am recieving this error whenever I attempt to run my bash grading script. The `TestListExamples` file that I am testing does have a main method so I believe that the error occurs when the file is being run and java can't find the main method.
 
 2. **TA Rsponse**
   I think that you are correct with and there does lie within what you are passing to the `java` command. Try using the `echo` method with the input of the `java` method to see what is being passed into the command.
 
 3. **Bug**
-   ![125537.png]
+   ![image_two](125537.png)
    When running the `echo` command with `-cp $CPATH$JUNIT TestListExamples`, I get the above output. The bug is that there is no space between the `CPATH` and `JUNIT` variables which causes an error in Java finding the main method.
 
 4. **Information**
@@ -91,8 +91,10 @@ else
 fi
 ```
 Command Line Ran to Trigger Bug:
-`$ bash grade.sh https://github.com/ucsd-cse15l-f22/list-methods-corrected`
 \
+`$ bash grade.sh https://github.com/ucsd-cse15l-f22/list-methods-corrected`
+
+
 Fixing the Bug:
 \
 To fix the bug, I had to add a space between the `CPATH` and `JUNIT` variables in the `java` command to run the files. 
