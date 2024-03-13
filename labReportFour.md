@@ -31,6 +31,6 @@
 
 **Step 9**
 \
-![image_six](135723.png)
+![image_six](183401.png)
 - Keys pressed: `g` `i` `t` `<space>` `a` `d` `d` `<space>` `L` `i` `s` `t` `E` `x` `a` `m` `p` `l` `e` `s` `.` `j` `a` `v` `a` `<enter>`, `g` `i` `t` `<space>` `c` `o` `m` `m` `i` `t` `<space>` `-` `m` `<space>` `"` `f` `i` `x` `e` `d` `<space>` `e` `r` `r` `o` `r` `"` `<enter>`, `g` `i` `t` `<space>` `p` `u` `s` `h` `<space>` `o` `r` `i` `g` `i` `n` `<space>` `m` `a` `i` `n` `<enter>`
-- I first used the `git add` command to stage the changed file for commit. I then used `git commit -m` command to commit the changes I made with a message.  
+- I first used the `git add` command to stage the changed file for commit. I then used `git commit -m` command to commit the changes I made with a message. I then used the `git push` command to push my edits to my repository. 
